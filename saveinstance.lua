@@ -832,7 +832,7 @@ local function synsaveinstance(CustomOptions)
 		noscripts = false,
 		scriptcache = true,
 		-- decomptype = "new", -- * Deprecated
-		timeout = 30, -- Description: If the decompilation run time exceeds this value it gets cancelled.
+		timeout = 120, -- Description: If the decompilation run time exceeds this value it gets cancelled.
 		--* New:
 		__DEBUG_MODE = false, -- Recommended to enable if you wish to help us improve our products and find bugs / issues with it!
 --Callback = nil, -- Description: If set, the serialized data will be sent to the callback instead of to file.
